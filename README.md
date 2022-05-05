@@ -13,3 +13,6 @@ On Ubuntu the easiest way to install both GDAL and python bindings is to install
 ## Useful links
 1. [Geoprocessing with Python using Open Source GIS](https://www.gis.usu.edu/~chrisg/python/2009/)
 2. [AutoGIS course](https://automating-gis-processes.github.io/2016/index.html)
+
+## Sample
+![Shanghai](/scrots/shanghai.png)
