@@ -79,7 +79,7 @@ rows = len(data)
 vertices = []
 for y in range(rows):
     for x in range(columns):
-        h = int(data[y][x] / population_scale)
+        h = data[y][x] / population_scale
         m = make_cube(h)
         m.y += y
         m.x += x
