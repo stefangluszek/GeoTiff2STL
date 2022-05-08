@@ -30,3 +30,13 @@ On Ubuntu the easiest way to install both GDAL and python bindings is to install
 ## Sample
 Shanghai population density:
 ![Shanghai](/scrots/shanghai.png)
+
+## First results
+
+### Stockholm
+The smallest model of Stockholm turned out pretty well.
+![Stockholm](/scrots/sthlm.jpg)
+
+### New York
+Unfortunately the 3D prints of the taller models with thin tall cells didn't really work.
+![NY](/scrots/ny.jpg)
