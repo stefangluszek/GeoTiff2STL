@@ -56,8 +56,6 @@ if not dataset:
 
 print('Driver: {}/{}'.format(dataset.GetDriver().ShortName,
       dataset.GetDriver().LongName))
-print('Size is: {} x {} x {}'.format(dataset.RasterXSize,
-      dataset.RasterYSize, dataset.RasterCount))
 
 band = dataset.GetRasterBand(1)
 
@@ -65,6 +63,8 @@ data = band.ReadAsArray()  # data = gdal_array.LoadFile(sys.argv[1])
 nodata = band.GetNoDataValue()
 max_population = numpy.amax(data)
 
+print('Size is: {} x {} x {}'.format(dataset.RasterXSize,
+      dataset.RasterYSize, int(max_population / population_scale)))
 print('Max population: {}'.format(max_population))
 
 # replace nodata wiht 0
