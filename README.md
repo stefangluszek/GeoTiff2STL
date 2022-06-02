@@ -33,6 +33,8 @@ Shanghai population density:
 
 ## First results
 
+Printed models of population densities. Resolution is 1km, 1mm width equals 1km in real world. 1mm height equals to 640 people.
+
 ### Stockholm
 ![Stockholm](/scrots/sthlm.jpg)
 
