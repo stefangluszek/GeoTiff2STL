@@ -37,4 +37,4 @@ Shanghai population density:
 ![Stockholm](/scrots/sthlm.jpg)
 
 ### New York
-![NY](/scrots/ny.jpg)
+![NY](/scrots/NY.jpg)
